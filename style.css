@@ -389,14 +389,18 @@ p{
     transition: all 250ms ease-in-out;
 }
 
-.member_img{    
+.member_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: var(--clr-primary);
 }
 
-.member_img > img{    
+.member_img > img{
+    object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: 50%;
